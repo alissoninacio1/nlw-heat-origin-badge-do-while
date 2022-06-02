@@ -20,9 +20,10 @@ body {
 }
 
 main {
-    background: url(images/background.svg);
-    width: 375px;
-    height: 812px;
+    background: url(images/background.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
 }
 
 .container {
@@ -86,4 +87,39 @@ ul {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
+}
+
+/* TABLET version */
+@media (min-width: 842px) {
+
+    body {
+        background-color: var(--black);    
+    }
+
+    main {
+        width: 22.375rem;
+        margin: -1.50rem auto 8.75rem auto;
+        z-index: -1;
+        transition: all .3s ease-in-out 0.3s;
+        border: 1px solid var(--grey);
+        border-radius: 5px;    
+            
+    }
+
+    .narrow-strip {
+        background: url(images/faixa.svg);
+        width: 64px;
+        height: 140px;
+        z-index: 1;     
+    }
+
+    #broken-line {
+        background: url(images/quebra.svg);
+        position: relative;
+        top: -6px;
+        width: 80px;
+        height: 12px;
+        z-index: 0; 
+    }
+      
 }
