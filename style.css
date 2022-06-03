@@ -94,16 +94,21 @@ ul {
 
     body {
         background-color: var(--black);    
+        height: 80%;
     }
 
     main {
         width: 22.375rem;
+        min-height: 670px;
+        height: 50vh;       
         margin: -1.50rem auto 8.75rem auto;
+        padding: 15px;
         z-index: -1;
         transition: all .3s ease-in-out 0.3s;
         border: 1px solid var(--grey);
         border-radius: 5px;    
             
+        zoom: 80%;
     }
 
     .narrow-strip {
@@ -122,4 +127,11 @@ ul {
         z-index: 0; 
     }
       
+}
+
+@media (min-width: 1024px) {
+    main {
+        zoom: 85%;
+        margin-top: -40px;
+    }
 }
