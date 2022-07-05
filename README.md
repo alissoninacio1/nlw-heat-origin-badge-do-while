@@ -37,7 +37,7 @@ Virtual Badge is an static app with the main goal to show the informations broug
 
 ## 🔖 Layout
 
-You can see this project layout [in](<https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1>). It is necessary have a  [Figma](https://figma.com) account to access it. 
+You can see this project layout [here](<https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1>). It is necessary have a  [Figma](https://figma.com) account to access it. 
 
 ## :memo: License
 
